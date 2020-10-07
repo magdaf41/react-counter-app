@@ -9,11 +9,12 @@ function App() {
       <header className="App-header">
         <h1>Licznik w ReactJS</h1>
       </header>
-      <Counter initValue={0}/>
-      <Counter initValue={108}/>
-
-
-
+      <Counter initValue={0}>
+        <div id="counter">
+          {/* <Step>Krok</Step> */}
+        </div>
+      </Counter>
+      <Srep/>
     </div>
   );
 
